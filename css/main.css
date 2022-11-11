@@ -276,9 +276,6 @@ textarea {
 
 .conversion-bar {
   width: 100%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
   max-height: 140px;
   position: fixed;
   bottom: 0;
