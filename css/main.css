@@ -260,6 +260,15 @@ textarea {
     page-break-after: avoid;
   }
 }
+@keyframes slideUp {
+  0% {
+      transform: translateY(180px);
+  }
+
+  100% {
+      transform: translateY(0);
+  }
+}
 .container {
   background: #eee;
   height: 2000px;
@@ -280,4 +289,11 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.eds-fx--slide-up, .slideUp {
+  -webkit-animation: slideUp .5s linear;
+  animation: slideUp .5s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
