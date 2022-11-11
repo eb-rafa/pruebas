@@ -15,7 +15,10 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  height: 100%;
 }
+
+body {height: 100%;}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -272,6 +275,7 @@ textarea {
 .container {
   background: #eee;
   height: 2000px;
+  padding-bottom: 200px;
 }
 
 .conversion-bar {
@@ -279,7 +283,6 @@ textarea {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  max-height: 140px;
   position: fixed;
   bottom: 0;
   z-index: 99;
